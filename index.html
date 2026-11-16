@@ -141,7 +141,7 @@ p{margin:0 0 18px;color:var(--soft);font-size:1.05rem;line-height:1.45}
   var ROW=44;
   var days=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'], months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   var now=new Date(), dateItems=[], dateFull=[];
-  for(var i=1;i<=21;i++){
+  for(var i=1;i<=28;i++){
     var d=new Date(now.getFullYear(),now.getMonth(),now.getDate()+i);
     dateItems.push(days[d.getDay()]+', '+months[d.getMonth()]+' '+d.getDate());
     dateFull.push(days[d.getDay()]+', '+months[d.getMonth()]+' '+d.getDate()+', '+d.getFullYear());
